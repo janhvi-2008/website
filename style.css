@@ -1,0 +1,373 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Beautiful Font */
+}
+
+/* ====== HEADER SECTION ====== */
+header {
+    background-color: grey;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* ====== HERO SECTION ====== */
+/* Hero Section */
+.hero {
+    background: url('https://i.pinimg.com/474x/5a/1f/89/5a1f895bf2ec4b90fe18592744087536.jpg') no-repeat center center/cover; /* Full background */
+    height: 70vh; /* Full screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* Hero Text */
+.hero h1 {
+    font-family: garamond,serif;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+/* About Section Styles */
+/* About Section Styling */
+.about-section {
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px; /* More padding for spacing */
+}
+
+/* Full-width Content */
+.about-content {
+    width: 100%;
+    max-width: 1200px;
+    background: #fff; 
+    padding: 30px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Heading */
+.about-content h2 {
+    font-size: 30px; /* Increased by 2px */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 4px solid #8B4513; /* Changed to brown */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Paragraph */
+.about-content p {
+    font-size: 18px; /* Increased by 2px */
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* List */
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* List Items */
+.about-content ul li {
+    font-size: 17px; /* Increased by 2px */
+    color: #444;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Adding a custom bullet point */
+.about-content ul li::before {
+    content: "•"; 
+    color: #592b0a; /* Brown color */
+    font-size: 20px; /* Increased size */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Menu Section MENUUUUUUUUUUUUUUUUUUUUUUUUUU the longesttttttt*/
+.menu-section {
+    width: 100%;
+    background-color: #3f2323;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+/* Section Title */
+.menu-section h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #8B4513;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Menu Container */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Menu Item */
+.menu-item {
+    width: 250px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Dish Image */
+.menu-item img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Dish Name */
+.menu-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+/* Price */
+.menu-item p {
+    font-size: 16px;
+    color: #ff5733;
+    font-weight: bold;
+}
+/CHEFFFFFFFFFFFFFFFFFFFF/
+/* Chef Section */
+.chef-section {
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align:center;
+}
+
+/* Section Title */
+.chef-section h2 {
+    font-size: 28px;
+    color: #8B4513;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #8B4513;
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align:center;
+}
+
+/* Chef Container */
+.chef-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align:center;
+}
+
+/* Chef Box */
+.chef {
+    width: 250px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chef:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Chef Image */
+.chef img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Chef Name */
+.chef h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0 5px;
+    text-align:center;
+}
+
+/* Chef Description */
+.chef p {
+    font-size: 14px;
+    color: #777;
+    text-align:center;
+}
+/FOOTERRRRRRRRRRRRRRRRRRRRRRR/
+/* Footer Section */
+.footer {
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 5px 0;
+	text-align:center;
+}
+
+.footer a {
+    color: #605acf;
+    text-decoration: none;
+    font-weight: bold;
+    text-align:center;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    text-align:center;
+}
+
+/* Thank You Message */
+.thank-you {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4242bc;
+}
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .menu-container, .chef-container {
+        flex-wrap: wrap;
+    }
+
+    .menu-item, .chef {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .menu-item, .chef {
+        width: 90%;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 40vh;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .menu-item, .chef {
+        width: 100%;
+    }
+    .about-content {
+        padding: 20px;
+    }
+    .about-content h2 {
+        font-size: 24px;
+    }
+    .footer {
+        padding: 15px 5px;
+    }
+}
